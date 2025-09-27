@@ -1,0 +1,13 @@
+@'
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+
+# Python notebooks or cache if ever added
+__pycache__/
+*.ipynb_checkpoints/
+'@ | Out-File -Encoding ascii ".gitignore"
